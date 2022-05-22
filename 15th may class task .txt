@@ -1,0 +1,84 @@
+
+s = "this is My first Python programming class and i am learning python string and its function"
+ 
+1 . Try to extract data from index one to index 300 with a jump of 3 
+Ans: 'h   r tnrrmglsnimengyosi dtfco'
+         s[1:300:3]
+
+2. Try to reverse a string without using reverse function 
+      'noitcnuf sti dna gnirts nohtyp gninrael ma i dna ssalc gnimmargorp nohtyP tsrif yM si siht'
+       s[::-1]
+
+3. Try to split a string after conversion of entire string in uppercase 
+    s.upper()
+'THIS IS MY FIRST PYTHON PROGRAMMING CLASS AND I AM LEARNING PYTHON STRING AND ITS FUNCTION'
+​
+4. try to convert the whole string into lower case 
+   s.lower()
+'this is my first python programming class and i am learning python string and its function'
+
+5 . Try to capitalize the whole string 
+   s.capitalise()
+'This is my first python programming class and i am learning python string and its function'
+
+6 . Write a diference between isalnum() and isalpha()
+       isalpha():   The string should contain all alphabetic characters excluding spaces for True conditions , otherwise it will be False   condition.
+       isalnum():  The string may contain either alphabetic characters or numeric characters excluding spaces for True conditions , otherwise it will be False condition.
+
+7. Try to give an example of expand tab
+     a="thanks\tfor\tvisting"
+     a.expandtabs()
+     'thanks  for     visting'
+
+8 . Give an example of strip , lstrip and rstrip
+     b='  gg   hh  poojitha    hnthn  '
+     b.strip() _ It will remove spaces both ends of the string 
+     'gg   hh  poojitha    hnthn'
+
+     a=  "          aarav      "
+     a.lstrip() _ It will remove the left side end space of the string 
+    ' aarav    '
+
+     b="    nag       "
+     b.rstrip()_ It will remove the right side end space of the string 
+     '       nag'  
+
+9.  Replace a string charecter by another charector by taking your own example 
+     g="poojitha"
+     g.replace('o','n')
+     'pnnjitha'
+
+10 . Try  to give a defination of string center function with and exmple 
+         g="poojitha"
+         g.center(20,'#')
+         '######poojitha######'
+
+11 . Write your own definition of compiler and interpretor without copy paste form internet in your own language 
+        Source   Code  :   A high level language developed by developers ans it is understandable by humans , known as source code.
+        Machine Code :  The computer can understand the binary code 0s and 1s , known as machine code.
+        Interpretor      : The source code is converted into machine code code by an intermediate code ,known as interpreter.
+                                       Interpreter takes single lines of a code and usually takes less amount of time to analyse the source code.
+                                       No object code is generated , memory efficient ans takes more time for execution .
+                                  eg: The Programming languages like Javascript ,Python, Ruby  use interpreters.
+
+    Def of Complier : The source code is converted into machine code by an object code ,known as complier.
+                                     A complier takes a program as a whole and takes more time to analyse the source code.
+                                     Generates the object code requires more memory and takes less time for execution.
+                             eg: The Programming languages like C ,C++, Java use compliers.
+
+12 . Python is a interpreted of compiled language give a clear ans with your understanding 
+      Python is an interpreted language , which means the source code of a python program is converted into an intermediate code usually called the byte code and again
+       translated into the native or machine language and then  executed by the python virtual machine. 
+       So Python is an interpreted language.
+      Python is different from complied languages like C , C++ , as Python code is not requires to be built and linked like others.
+
+13 . Try to write a usecase of python with your understanding 
+      Top Ten Python Applications in Real World are:
+    1.Web Development :
+     2. Game developmengt 
+    3. Business development 
+    4. AI , ML & Data science 
+    5. Computer aided design development 
+    6. software development 
+    7. Audio and visual application 
+    8. Web scrapping etc 
